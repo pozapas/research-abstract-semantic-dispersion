@@ -1,0 +1,34 @@
+{
+  "script": "q1_topic_stability.py",
+  "fit_sample": "pooled locked cohort, one clustering for both periods",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "c9745ed1d9f207416be6d2e6f8de32d1f16199bf",
+  "text_input": "title + '. ' + abstract",
+  "preprocessing": "50-component randomized PCA on unit-normalized 384-dimensional embeddings",
+  "pca_random_state": 20260424,
+  "pca_explained_variance_ratio_sum": 0.5577581524848938,
+  "hdbscan_metric": "euclidean",
+  "cluster_selection_method": "eom",
+  "settings": [
+    {
+      "min_cluster_size": 50,
+      "min_samples": 5
+    },
+    {
+      "min_cluster_size": 100,
+      "min_samples": 10
+    },
+    {
+      "min_cluster_size": 200,
+      "min_samples": 20
+    }
+  ],
+  "primary_setting": {
+    "min_cluster_size": 100,
+    "min_samples": 10
+  },
+  "outputs": [
+    "results/q1_topic_stability.csv",
+    "results/q1_topic_clusters_locked.csv"
+  ]
+}

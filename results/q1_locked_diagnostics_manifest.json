@@ -1,0 +1,22 @@
+{
+  "script": "q1_locked_diagnostics.py",
+  "rng_seed": 20260424,
+  "semantic_subsamples": {
+    "draws_per_period": 100,
+    "size": 1000
+  },
+  "tdi_subsamples": {
+    "draws_per_period": 20,
+    "landmarks": 500,
+    "complex": "Vietoris-Rips",
+    "homology_dimension": 1,
+    "coefficient_field": 2,
+    "filtration": "ripser default; maximum edge equals the sample diameter",
+    "infinite_bars": "excluded",
+    "scale_normalization": "none; fixed landmark count and unit-normalized embedding scale"
+  },
+  "monthly_its": {
+    "subsample_cap": 500,
+    "hac_lags": 3
+  }
+}

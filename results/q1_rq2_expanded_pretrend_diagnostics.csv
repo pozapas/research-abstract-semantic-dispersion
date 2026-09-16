@@ -1,0 +1,2 @@
+outcome,exposure_name,joint_lead_p,mean_abs_lead,mean_abs_post,lead_to_post_ratio,status,reference_event_bin
+semantic_distance,nature_frequency,0.31788382709973073,0.0005463677962211619,0.0014267161182727527,0.38295480735342047,pass,reference_m01

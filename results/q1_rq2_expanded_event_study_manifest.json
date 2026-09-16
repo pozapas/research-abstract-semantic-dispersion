@@ -1,0 +1,53 @@
+{
+  "script": "q1_build_expanded_rq2_event_study.py",
+  "date": "2026-04-24",
+  "status": "green_candidate",
+  "sample_rows": 425728,
+  "panel_cells": 14111,
+  "eligible_field_months": 9348,
+  "eligible_primary_categories": 102,
+  "cutoff_policy": "first post month is 2022-12; 2022-11 is the reference bin because daily timing is unavailable in expanded sample",
+  "primary_exposure": "Nature survey mean GenAI frequency score mapped to arXiv macro fields and z-scored",
+  "main_semantic_did": [
+    {
+      "outcome": "semantic_distance",
+      "exposure_name": "nature_frequency",
+      "model_name": "expanded_month_did",
+      "term": "did_target",
+      "coef": -0.002224999600123814,
+      "se_cluster": 0.000834018077857108,
+      "p_cluster": 0.007634801075541279,
+      "ci_low": -0.0038596449951790682,
+      "ci_high": -0.0005903542050685595,
+      "n_fields": 102,
+      "n_field_months": 9348,
+      "weighting": "n_papers",
+      "controls": "primary-category FE; month FE; log_n_papers"
+    }
+  ],
+  "pretrend": [
+    {
+      "outcome": "semantic_distance",
+      "exposure_name": "nature_frequency",
+      "joint_lead_p": 0.31788382709973073,
+      "mean_abs_lead": 0.0005463677962211619,
+      "mean_abs_post": 0.0014267161182727527,
+      "lead_to_post_ratio": 0.38295480735342047,
+      "status": "pass",
+      "reference_event_bin": "reference_m01"
+    }
+  ],
+  "placebo_failures": 0,
+  "significant_negative_robustness_count": 8,
+  "claim_boundary": "A green candidate supports RQ2 only as exposure-gradient evidence, not paper-level observed GenAI use.",
+  "outputs": [
+    "results/q1_rq2_expanded_month_panel.csv",
+    "results/q1_rq2_expanded_exposure_table.csv",
+    "results/q1_rq2_expanded_did_coefficients.csv",
+    "results/q1_rq2_expanded_event_study_coefficients.csv",
+    "results/q1_rq2_expanded_pretrend_diagnostics.csv",
+    "results/q1_rq2_expanded_placebo_cutoffs.csv",
+    "results/q1_rq2_expanded_robustness_grid.csv",
+    "tables/q1_T15_expanded_monthly_rq2_event_study.tex"
+  ]
+}

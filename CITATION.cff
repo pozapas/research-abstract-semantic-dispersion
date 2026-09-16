@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code or the derived data, cite the paper and this repository."
+title: "Semantic dispersion of arXiv research abstracts after ChatGPT"
+type: software
+authors:
+  - family-names: Rafe
+    given-names: Amir
+    orcid: "https://orcid.org/0000-0002-4089-2088"
+  - family-names: Das
+    given-names: Subasish
+    orcid: "https://orcid.org/0000-0002-1671-2753"
+repository-code: "https://github.com/pozapas/research-abstract-semantic-dispersion"
+url: "https://github.com/pozapas/research-abstract-semantic-dispersion"
+license: MIT
+version: 1.1.0
+date-released: 2026-09-16

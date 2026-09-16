@@ -1,0 +1,22 @@
+# Third-party source data and rebuilt large artifacts
+data/archive/
+data/arxiv_meta.csv
+data/arxiv_meta_sampled.csv
+data/q1_rq2_expanded_stem_sample.csv
+data/*.npy
+data/nature_survey.csv
+data/*survey*.xlsx
+data/*key*
+data/derived/
+
+# Python and notebook state
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+
+# Local review and operating-system files
+review_render/
+.DS_Store
+Thumbs.db
+*.zip

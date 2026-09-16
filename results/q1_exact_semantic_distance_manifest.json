@@ -1,0 +1,12 @@
+{
+  "script": "q1_exact_semantic_distance.py",
+  "cutoff": "2022-11-30",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "embedding_dtype": "float32",
+  "text_input": "title + '. ' + abstract",
+  "model_revision": "c9745ed1d9f207416be6d2e6f8de32d1f16199bf",
+  "distance": "Euclidean distance on unit-normalized sentence embeddings",
+  "estimand": "finite-corpus mean over all distinct unordered abstract pairs within period",
+  "output": "results/q1_exact_semantic_distance.csv"
+}

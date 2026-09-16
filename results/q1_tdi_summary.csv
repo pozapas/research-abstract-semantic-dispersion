@@ -1,0 +1,2 @@
+metric,pre_mean,pre_sd,pre_q025,pre_q975,post_mean,post_sd,post_q025,post_q975,delta,delta_pct,n_draws,subsample_size,interval_role
+TDI H1 total persistence,21.74235002398491,0.9168737096673832,20.50040175318718,23.463374382257463,19.73620013296604,0.9566974433404268,17.940256340801717,20.882843331992625,-2.006149891018868,-9.226922981213159,20,500,empirical repeated-subsample diagnostic; marginal intervals may overlap

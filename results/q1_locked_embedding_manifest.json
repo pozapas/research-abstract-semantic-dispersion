@@ -1,0 +1,17 @@
+{
+  "script": "q1_embed_locked_cohort.py",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "c9745ed1d9f207416be6d2e6f8de32d1f16199bf",
+  "text_input": "title + '. ' + abstract",
+  "missing_text": "empty string",
+  "tokenizer": "model default; truncation at the model maximum sequence length",
+  "pooling": "model default mean pooling",
+  "normalize_embeddings": true,
+  "dtype": "float32",
+  "rows": 31802,
+  "dimension": 384,
+  "batch_size": 128,
+  "output": "data/q1_locked_title_abstract_embeddings.npy",
+  "output_sha256": "8e25964f17f94a254289e31b267c13d8cbf0643ffdbf39047ba600a64d18b6fd",
+  "row_manifest": "results/q1_locked_embedding_rows.csv"
+}

@@ -1,0 +1,2 @@
+metric,pre_mean,pre_sd,post_mean,post_sd,delta,delta_pct,n_draws,subsample_size,interval_role
+Mean pairwise SBERT distance,1.3533809061279731,0.0018945625483255469,1.331599760170067,0.002354558996976639,-0.021781145957906034,-1.609387708906132,100,1000,empirical repeated-subsample diagnostic; not a corpus confidence interval

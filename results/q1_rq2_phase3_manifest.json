@@ -1,0 +1,58 @@
+{
+  "phase": "3_shiftshare",
+  "date": "2026-06-30",
+  "results": [
+    {
+      "label": "shiftshare_leaveout",
+      "outcome": "dist_leaveout",
+      "coef": -0.0004934206655567448,
+      "se": 0.00034098608701269224,
+      "p_cat": 0.14788559093298814,
+      "ci_low": -0.0011617411153308625,
+      "ci_high": 0.00017489978421737307,
+      "n_cat": 100,
+      "n_cells": 8121
+    },
+    {
+      "label": "shiftshare_full",
+      "outcome": "dist_all",
+      "coef": -0.0014920173720617833,
+      "se": 0.0005299822536031849,
+      "p_cat": 0.004874364295621122,
+      "ci_low": -0.002530763501569399,
+      "ci_high": -0.0004532712425541676,
+      "n_cat": 100,
+      "n_cells": 8121
+    },
+    {
+      "label": "shiftshare_leaveout_drop_cs",
+      "outcome": "dist_leaveout",
+      "coef": -0.0007569248146110252,
+      "se": 0.0006409761000194902,
+      "p_cat": 0.23764484512751494,
+      "ci_low": -0.0020132148856001693,
+      "ci_high": 0.000499365256378119,
+      "n_cat": 68,
+      "n_cells": 5550
+    },
+    {
+      "label": "shiftshare_leaveout_drop_aiheavy",
+      "outcome": "dist_leaveout",
+      "coef": -0.0005909874005254632,
+      "se": 0.0003482804559920029,
+      "p_cat": 0.0897208374147422,
+      "ci_low": -0.0012736045507889763,
+      "ci_high": 9.162974973804972e-05,
+      "n_cat": 95,
+      "n_cells": 7699
+    }
+  ],
+  "ri_leaveout": {
+    "beta": -0.0004934206655567448,
+    "p_ri_two": 0.24037981009495252,
+    "p_ri_one": 0.11744127936031984,
+    "n_perm": 2000
+  },
+  "joint_pretrend_p": 0.04453791172086295,
+  "verdict": "OBSERVATIONAL ONLY: the confidence interval includes zero, the label-permutation p-value is 0.240, and the joint pretrend p-value is 0.045."
+}

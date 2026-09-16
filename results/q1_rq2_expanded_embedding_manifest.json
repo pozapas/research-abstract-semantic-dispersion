@@ -1,0 +1,172 @@
+{
+  "script": "colab_embed_expanded_rq2_sample.ipynb",
+  "status": "complete",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "device": "cuda",
+  "device_name": "NVIDIA A100-SXM4-80GB",
+  "sample": "data/q1_rq2_expanded_stem_sample.csv",
+  "sample_size_bytes": 545901258,
+  "sample_sha256": "7274e438e96bcb510d0981af19a55d6080c59e5489e4d9e195c98f4dbf0dc10c",
+  "output": "colab_outputs/q1_rq2_expanded_embeddings.npy",
+  "rows": 425728,
+  "dimension": 384,
+  "dtype": "float32",
+  "batch_size": 1024,
+  "chunk_rows": 20000,
+  "chunks": [
+    {
+      "begin": 0,
+      "end": 20000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_000000_020000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 20000,
+      "end": 40000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_020000_040000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 40000,
+      "end": 60000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_040000_060000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 60000,
+      "end": 80000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_060000_080000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 80000,
+      "end": 100000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_080000_100000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 100000,
+      "end": 120000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_100000_120000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 120000,
+      "end": 140000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_120000_140000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 140000,
+      "end": 160000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_140000_160000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 160000,
+      "end": 180000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_160000_180000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 180000,
+      "end": 200000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_180000_200000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 200000,
+      "end": 220000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_200000_220000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 220000,
+      "end": 240000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_220000_240000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 240000,
+      "end": 260000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_240000_260000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 260000,
+      "end": 280000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_260000_280000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 280000,
+      "end": 300000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_280000_300000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 300000,
+      "end": 320000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_300000_320000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 320000,
+      "end": 340000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_320000_340000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 340000,
+      "end": 360000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_340000_360000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 360000,
+      "end": 380000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_360000_380000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 380000,
+      "end": 400000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_380000_400000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 400000,
+      "end": 420000,
+      "rows": 20000,
+      "path": "colab_outputs/embedding_chunks/chunk_400000_420000.npy",
+      "status": "embedded"
+    },
+    {
+      "begin": 420000,
+      "end": 425728,
+      "rows": 5728,
+      "path": "colab_outputs/embedding_chunks/chunk_420000_425728.npy",
+      "status": "embedded"
+    }
+  ]
+}

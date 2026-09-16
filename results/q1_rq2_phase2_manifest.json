@@ -1,0 +1,75 @@
+{
+  "phase": "2_leaveout_dose",
+  "date": "2026-06-30",
+  "results": [
+    {
+      "label": "leaveout_primary",
+      "outcome": "dist_leaveout",
+      "coef": -0.002049029856402757,
+      "se": 0.0012004291255213303,
+      "p_cat": 0.08783794905508299,
+      "ci_low": -0.004401827708417476,
+      "ci_high": 0.0003037679956119626,
+      "n_cat": 102,
+      "n_cells": 9331
+    },
+    {
+      "label": "full_sample_control",
+      "outcome": "dist_all",
+      "coef": -0.005595357489821163,
+      "se": 0.0019670134957597354,
+      "p_cat": 0.004446787112966409,
+      "ci_low": -0.009450633098614474,
+      "ci_high": -0.0017400818810278515,
+      "n_cat": 102,
+      "n_cells": 9331
+    },
+    {
+      "label": "leaveout_drop_cs",
+      "outcome": "dist_leaveout",
+      "coef": -0.007507901898442066,
+      "se": 0.010264877796666062,
+      "p_cat": 0.46452473596157917,
+      "ci_low": -0.02762669268561241,
+      "ci_high": 0.012610888888728277,
+      "n_cat": 70,
+      "n_cells": 6418
+    },
+    {
+      "label": "leaveout_drop_ai_heavy",
+      "outcome": "dist_leaveout",
+      "coef": -0.003874917651032446,
+      "se": 0.0010142145496507642,
+      "p_cat": 0.00013312233441245495,
+      "ci_low": -0.005862741640944455,
+      "ci_high": -0.0018870936611204378,
+      "n_cat": 97,
+      "n_cells": 8862
+    },
+    {
+      "label": "leaveout_unweighted",
+      "outcome": "dist_leaveout",
+      "coef": -0.002055839950775724,
+      "se": 0.0014341863726076071,
+      "p_cat": 0.1517281839206151,
+      "ci_low": -0.004866793588204776,
+      "ci_high": 0.0007551136866533283,
+      "n_cat": 102,
+      "n_cells": 9331
+    }
+  ],
+  "ri_leaveout": {
+    "beta": -0.002049029856402757,
+    "p_ri_two": 0.044977511244377814,
+    "p_ri_one": 0.0239880059970015,
+    "n_perm": 2000
+  },
+  "ri_full": {
+    "beta": -0.005595357489821163,
+    "p_ri_two": 0.0004997501249375312,
+    "p_ri_one": 0.0004997501249375312,
+    "n_perm": 2000
+  },
+  "joint_pretrend_p": 0.005431961013482947,
+  "verdict": "OBSERVATIONAL ONLY: the label-permutation p-value is 0.045, but the joint pretrend p-value is 0.005. Do not use a causal interpretation."
+}

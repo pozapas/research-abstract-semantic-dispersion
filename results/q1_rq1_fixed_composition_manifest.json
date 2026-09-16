@@ -1,0 +1,6 @@
+{
+  "script": "q1_rq1_standardized.py",
+  "eligibility": "n_non >= 15; at least 24 pre months and 18 post months",
+  "output": "results/q1_rq1_fixed_composition.csv",
+  "claim_boundary": "descriptive only; the interrupted-time-series model supplies the trend adjustment"
+}

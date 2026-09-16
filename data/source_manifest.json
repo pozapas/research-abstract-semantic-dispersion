@@ -1,0 +1,10 @@
+{
+  "dataset": "Cornell University arXiv metadata",
+  "source_url": "https://www.kaggle.com/datasets/Cornell-University/arxiv",
+  "source_license": "CC0: Public Domain",
+  "local_snapshot_retrieved": "2026-04-23",
+  "local_snapshot_filename": "arxiv-metadata-oai-snapshot.json",
+  "local_snapshot_bytes": 5223246694,
+  "local_snapshot_sha256": "fb088d1d7ae7cf2772889dc2f467692bd3bed6a4c77484982eacab223e2bf5c5",
+  "note": "The upstream dataset is updated. A current download can differ from this frozen snapshot. Verify the hash before an exact rebuild."
+}

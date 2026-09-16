@@ -1,0 +1,4 @@
+population,pre_fixed_composition,post_fixed_composition,delta,delta_pct,categories,cells,weight_definition,interpretation
+all marker statuses,1.1930971253174387,1.1862485691627918,-0.0068485561546469675,-0.5740149740805739,102,9331,each category receives its pooled-period paper share in both periods,descriptive standardized contrast; no adjustment for the secular time trend
+marker-negative only,1.1931231547936552,1.1888475255777826,-0.004275629215872545,-0.3583560673258407,102,9331,each category receives its pooled-period paper share in both periods,descriptive standardized contrast; no adjustment for the secular time trend
+marker-negative only; computer science excluded,1.1962548023568773,1.1924665700792902,-0.003788232277587067,-0.31667436319782716,70,6418,each category receives its pooled-period paper share in both periods,descriptive standardized contrast; no adjustment for the secular time trend

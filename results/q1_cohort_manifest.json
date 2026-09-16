@@ -1,0 +1,17 @@
+{
+  "generated_by": "q1_rebuild_outputs.py",
+  "rng_seed": 20260424,
+  "cohort_start": "2018-01-01",
+  "cohort_end": "2025-12-31",
+  "cutoff": "2022-11-30",
+  "date_source": "arxiv_versions_cache",
+  "sample_rows_total": 50000,
+  "cohort_rows": 31802,
+  "pre_rows": 16006,
+  "post_rows": 15796,
+  "submitted_date_recovery_rate": 1.0,
+  "embedding_shape": [
+    50000,
+    384
+  ]
+}

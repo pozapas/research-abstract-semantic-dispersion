@@ -1,0 +1,5 @@
+design,gradient,outcome,beta,label_permutation_p,pretrend_p,drop_cs,note
+P1 Nature adoption,external survey,full,-0.0022249996001236652,0.24293926518370407,0.318,wide interval includes zero,reference-model dependent
+P2 Marker dose,category marker share,leave-out,-0.002049015,0.044977511244377814,0.005431961013482947,wide interval includes zero,failed pretrend
+P3 Task-fit x Trends,task fit by Google Trends,leave-out,-0.000493378,0.24037981009495252,0.04453791172086295,wide interval includes zero,failed pretrend
+P4 Marker dose + category trends,category marker share,leave-out,0.00035605579343683455,0.6406796601699151,,not reported,category-specific trends

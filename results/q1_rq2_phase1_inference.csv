@@ -1,0 +1,6 @@
+method,coef,se,p,detail
+cluster_by_category (PUBLISHED),-0.0022249996001236652,0.0008340180778571097,0.00763480107554546,102 clusters; treatment varies at macro level -> understates SE
+cluster_by_macro_field,-0.0022249996001236652,0.00014013505326183537,9.066829953044516e-57,12 clusters; too few for reliable CRVE asymptotics
+"wild_cluster_bootstrap (macro, null-imposed)",-0.0022249996001236652,,0.0425,"Rademacher, 1999 draws, 12 clusters"
+"randomization_inference (permute macro exposure, two-sided)",-0.0022249996001236652,,0.24293926518370407,4000 perms over 12 macro units
+"randomization_inference (one-sided, negative dir)",-0.0022249996001236652,,0.1269682579355161,4000 perms; directional hypothesis (contraction)

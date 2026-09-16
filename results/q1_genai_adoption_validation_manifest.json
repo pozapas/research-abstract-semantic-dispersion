@@ -1,0 +1,37 @@
+{
+  "script": "q1_build_genai_adoption_validation.py",
+  "date": "2026-04-24",
+  "source": "data/nature_survey.csv",
+  "rows": 1659,
+  "frequency_column": "Generative AI This section now asks specifically about generative AI - that is, tools such as ChatGPT, GPT-4, PALM, MidJourney, LLaMA, or any products built using these tools. How often do you use these tools at work?",
+  "purpose_columns": {
+    "use_research": "To help do research:What do you use these tools for? (Choose all that apply).",
+    "use_code": "To help write code:What do you use these tools for? (Choose all that apply).",
+    "use_manuscripts": "To help write research manuscripts:What do you use these tools for? (Choose all that apply).",
+    "use_review": "To help review research manuscripts:What do you use these tools for? (Choose all that apply).",
+    "use_literature": "To conduct literature reviews:What do you use these tools for? (Choose all that apply).",
+    "use_scientific_search": "Within scientific search engines:What do you use these tools for? (Choose all that apply).",
+    "use_brainstorm": "To brainstorm research ideas:What do you use these tools for? (Choose all that apply)."
+  },
+  "field_columns": {
+    "agriculture": "Agriculture, veterinary or food science:Which best describes your research field?",
+    "biological": "Biological sciences:Which best describes your research field?",
+    "biomedical": "Biomedical, clinical, or health-related sciences:Which best describes your research field?",
+    "chemical": "Chemical sciences:Which best describes your research field?",
+    "earth": "Earth sciences:Which best describes your research field?",
+    "economics": "Economics:Which best describes your research field?",
+    "engineering": "Engineering:Which best describes your research field?",
+    "environmental": "Environmental sciences and Ecology:Which best describes your research field?",
+    "computing": "Computing or Information sciences:Which best describes your research field?",
+    "mathematics": "Mathematics:Which best describes your research field?",
+    "physical": "Physical sciences:Which best describes your research field?",
+    "psychology": "Psychology:Which best describes your research field?",
+    "social": "Social sciences:Which best describes your research field?",
+    "humanities": "Humanities:Which best describes your research field?"
+  },
+  "outputs": [
+    "results/q1_nature_genai_adoption_by_field.csv",
+    "results/q1_nature_arxiv_macro_exposure_validation.csv"
+  ],
+  "claim_boundary": "validation-only broad-field adoption evidence; not paper-level GenAI adoption"
+}
