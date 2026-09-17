@@ -1,10 +1,10 @@
-# Semantic dispersion of arXiv research abstracts after ChatGPT
+# Has research become less diverse after ChatGPT?
 
 This repository contains the code, derived aggregate results, and figures for
 the study:
 
-> Semantic dispersion of arXiv research abstracts after ChatGPT:
-> measurement, composition, and identification
+> Has research become less diverse after ChatGPT? A finite-corpus analysis of
+> semantic dispersion, composition, and identification
 
 The paper reports a descriptive change. It does not claim that generative AI
 caused the change.
